@@ -4,11 +4,11 @@ import plotly.express as px
 import csv
 import numpy as np
 
-# df = pd.read_csv('iceCreamvsTemp.csv')
+df = pd.read_csv('iceCreamvsTemp.csv')
 
-# fig= px.scatter(df,x= "Temperature", y="Ice-cream Sales( ₹ )")
+fig= px.scatter(df,x= "Temperature", y="Ice-cream Sales( ₹ )")
 
-# fig.show()
+fig.show()
 
 
 def getDataSource(dataPath):
